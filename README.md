@@ -1,5 +1,6 @@
 # Employee-review-app
 #website link :- https://employee-review-app-lxbd.onrender.com
+<br/>
 A web application which help you to create, update,  delete and  review emp;oyee. 
 It is user specific app, which mean a user review , and mark it as assign , or not assign. 
 The project is built using a tech stack consisting of Node.js for the server-side scripting.
@@ -49,29 +50,29 @@ Habit Tracker
     |--->config---->|--->mongoose.js
     |               |--->passport_local.js
     |
-    |                  |-->habit_controller.js
-    |--->controllers-->|-->home_controller.js
-    |                  |-->user_controller.js
+    |                  |-->dashboard_controller.js
+    |--->controllers-->|-->review_controller.js
+    |                  |-->users_controller.js
     |
-    |               |-->habit.js
+    |               |-->review.js
     |--->models---->|
     |               |-->user.js
     |
     |              
-    |               |-->habit.js
-    |--->routes---->|-->index.js
-    |               |-->user.js
+    |               |-->index.js
+    |--->routes---->|-->reviews.js
+    |               |-->users.js
     |
     |              
+    |              |--->_footer.ejs
+    |               |---->user_sign_in.ejs
     |              |--->_header.ejs
-    |              
-    |              |--->daily_view.ejs
-    |              |--->forget_password.ejs
-    |--->views---->|--->home.ejs
-    |              |--->layout.ejs
-    |              |--->user_sign_in.ejs
+    |              |--->add_employee.ejss
+    |--->views---->|--->admin_dashboard.ejs
+    |              |--->edit_employee.ejs
+    |              |--->employee_dashboard.ejss
     |              |--->user_sign_up.ejs
-    |              |--->weekly_view.ejs
+    |              |--->layout.ejs
     |
     |-->node_modules
     |-->.gitignore
